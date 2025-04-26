@@ -101,3 +101,66 @@ footer {
   background: #111;
   font-size: 0.9rem;
 }
+
+.about, .process, .cta-banner, .services-grid, .why-choose-us {
+  padding: 60px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.about-image {
+  width: 50%;
+  border-radius: 8px;
+}
+
+.about-text {
+  flex: 1;
+}
+
+.process .steps {
+  display: flex;
+  gap: 30px;
+}
+
+.process .step {
+  flex: 1;
+}
+
+.cta-banner {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+  border-radius: 8px;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+}
+
+.service-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.service-card h3 {
+  margin-top: 10px;
+}
+
+.why-choose-us ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.why-choose-us li::before {
+  content: "✔️";
+  margin-right: 10px;
+}
