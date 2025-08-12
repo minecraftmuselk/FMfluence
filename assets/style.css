@@ -164,30 +164,3 @@ footer {
   content: "✔️";
   margin-right: 10px;
 }
-
-.step-icon {
-  width: 80px;
-  height: 80px;
-  margin-bottom: 15px;
-}
-
-.steps {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 20px;
-}
-
-.step {
-  flex: 1;
-  min-width: 250px;
-  text-align: center;
-  padding: 20px;
-  background: #f8f8f8;
-  border-radius: 8px;
-  transition: transform 0.3s ease;
-}
-
-.step:hover {
-  transform: translateY(-5px);
-}
