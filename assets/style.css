@@ -164,3 +164,26 @@ footer {
   content: "✔️";
   margin-right: 10px;
 }
+
+.step-icon {
+  width: 60px; /* Reduced from 80px */
+  height: 60px; /* Reduced from 80px */
+  margin-bottom: 15px;
+  object-fit: contain;
+}
+
+/* Responsive adjustments */
+@media (max-width: 900px) {
+  .steps {
+    flex-wrap: wrap;
+  }
+  .step {
+    flex: 0 1 calc(50% - 30px); /* Two columns on medium screens */
+  }
+}
+
+@media (max-width: 600px) {
+  .step {
+    flex: 0 1 100%; /* Single column on mobile */
+  }
+}
